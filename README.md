@@ -1,25 +1,32 @@
 # 🫐 Hola, soy @ceiman | Magberry Architect
 
-Soy un entusiasta de la auto-gestión de datos, la privacidad y la domótica avanzada. Mi ecosistema principal, **Magberry**, es un entorno basado en **Raspberry Pi 5** diseñado para ser 100% resiliente y privado mediante el uso intensivo de Docker.
+Soy un entusiasta de la auto-gestión de datos, la privacidad y la domótica avanzada. Mi ecosistema principal, **Magberry**, es un entorno basado en **Raspberry Pi 5** diseñado para ser resiliente y privado mediante el uso intensivo de Docker.
 
 ---
 
 ### 🚀 Mi Infraestructura (Magberry OS)
 
-Actualmente gestiono una red de microservicios orquestados para IA, domótica y multimedia, con un enfoque en la recuperación total desde GitHub en caso de fallo crítico:
+Actualmente gestiono una red de microservicios orquestados para IA, domótica, multimedia y red, con un enfoque en la recuperación total desde GitHub en caso de fallo crítico:
 
 * **🤖 Inteligencia Artificial:**
-    * **[Openclaw-Deepseek](https://github.com/ceiman/Openclaw-Deepseek):** Mi asistente personal "Berry", optimizado para gestionar la vida familiar y la infraestructura.
-    * **[Openclaw-gemini](https://github.com/ceiman/Openclaw-gemini):** Motor LLM alternativo para alta disponibilidad.
+    * **[openclaw-berry](https://github.com/ceiman/openclaw-berry):** Mi asistente personal "Berry", basado en OpenClaw, que gestiona la vida familiar y la infraestructura.
 * **🏠 Domótica y Control:**
     * **[HomeAssistant-config](https://github.com/ceiman/HomeAssistant-config):** El cerebro de mi hogar con integraciones críticas para transporte (CRTM/EMT), energía y dispositivos Xiaomi/Tuya/Sonoff.
-    * **[Portainer](https://github.com/ceiman/Portainer):** Gestión visual de todo el stack de contenedores en la Pi 5.
+    * **Portainer:** Gestión visual de todo el stack de contenedores en la Pi 5.
 * **🎬 Media & Streaming:**
-    * **[media-stack](https://github.com/ceiman/media-stack):** Ecosistema multimedia con Plex, Navidrome, MeTube y descargas automatizadas mediante "Mapeo Inteligente".
+    * **[media-stack-v2](https://github.com/ceiman/media-stack-v2):** Ecosistema multimedia con Jellyfin, Radarr, Sonarr, Bazarr, Jackett, Transmission, Jellyseerr y Wizarr, con descargas automatizadas.
 * **🛡️ Red y Seguridad:**
     * **[wirehole](https://github.com/ceiman/wirehole):** WireGuard + Pi-hole para navegación segura, VPN y bloqueo de publicidad a nivel de red.
     * **[npn_duckdns](https://github.com/ceiman/npn_duckdns):** Nginx Proxy Manager para acceso remoto seguro mediante HTTPS y certificados Let's Encrypt.
-    * **[BerryPi5](https://github.com/ceiman/BerryPi5):** Documentación técnica sobre el aprovisionamiento de hardware, red estática y preparación del entorno base.
+* **🔍 Privacidad y utilidades:**
+    * **SearXNG:** Buscador propio autoalojado, sin rastreo de terceros.
+    * **Samba:** Compartir archivos en la red local.
+* **🌐 Webs de casa:**
+    * **[webs](https://github.com/ceiman/webs):** Portal general, panel de actividad y tablero de tareas autoalojados.
+* **📊 Monitorización y documentación:**
+    * **[monitoring](https://github.com/ceiman/monitoring):** Supervisión del stack de Magberry.
+    * **[magberry-stacks](https://github.com/ceiman/magberry-stacks):** Documentación técnica de todos los stacks.
+    * **[BerryPi5](https://github.com/ceiman/BerryPi5):** Aprovisionamiento de hardware, red estática y preparación del entorno base.
 
 ---
 
@@ -29,6 +36,9 @@ Actualmente gestiono una red de microservicios orquestados para IA, domótica y 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Home Assistant](https://img.shields.io/badge/home%20assistant-%2341BDF5.svg?style=for-the-badge&logo=home-assistant&logoColor=white)
+![Jellyfin](https://img.shields.io/badge/jellyfin-%23000B25.svg?style=for-the-badge&logo=jellyfin&logoColor=white)
+![WireGuard](https://img.shields.io/badge/wireguard-%2388171A.svg?style=for-the-badge&logo=wireguard&logoColor=white)
+![Pi-Hole](https://img.shields.io/badge/pihole-%2396060C.svg?style=for-the-badge&logo=pi-hole&logoColor=white)
 
 ---
 
@@ -38,8 +48,8 @@ Actualmente gestiono una red de microservicios orquestados para IA, domótica y 
 - 🔄 **Resiliencia:** Perfeccionando el flujo de "Regla de Oro" en Git para backups automáticos de bases de datos Docker.
 
 ### 📫 Cómo contactarme
-- 🤖 A través de mi bot de infraestructura: `@ceiman_mag_bot` en Telegram.
+- 🤖 A través de mi bot de infraestructura: @ceiman_mag_bot en Telegram.
 - 🌐 Gestionando mi red desde cualquier lugar vía [WireGuard](https://github.com/ceiman/wirehole).
 
 ---
-*Configurado por **Berry pi5** 🫐 - Administrador de Sistemas de Magberry.*
+*Configurado por **Berry** 🫐 - Administrador de Sistemas de Magberry.*
